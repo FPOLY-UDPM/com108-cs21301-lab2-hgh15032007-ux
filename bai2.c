@@ -9,16 +9,15 @@
 // Output: Hiển thị ra màn hình chu vi và diện tích của hình chữ nhật
 
 #include <stdio.h>
-
-int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+int main () {
+    int dai = 0, rong = 0;
+    printf ("Nhap dai: ");
+    scanf ("%d",&dai);
+    printf ("Nhap rong: ");
+    scanf ("%d",&rong);
+    printf ("Chu vi = %d\n", (dai + rong) * 2);
+    printf ("Dien tich = %d\n", dai * rong);
+    return 0;
 }
+
+

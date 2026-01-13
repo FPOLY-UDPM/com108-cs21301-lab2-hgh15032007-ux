@@ -11,16 +11,14 @@
 // Điểm Toán có hệ số 3, điểm Lý có hệ số 2, điểm Hóa có hệ số 1
 
 #include <stdio.h>
-
-int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+int main () {
+    int toan = 0, ly = 0, hoa = 0;
+    printf ("Nhap diem Toan: ");
+    scanf ("%d",&toan);
+    printf ("Nhap diem Ly: ");
+    scanf ("%d",&ly);
+    printf ("Nhap diem Hoa: ");
+    scanf ("%d",&hoa);
+    printf ("Diem trung binh = %d\n", (toan * 3 + ly * 2 + hoa * 1) / 6);
+    return 0;
 }

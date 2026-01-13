@@ -9,16 +9,12 @@
 // Output: Hiển thị ra màn hình chu vi và diện tích của hình tròn
 
 #include <stdio.h>
-
-int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+int main () {
+    int ban_kinh = 0, pi = 3.14, dien_tich;
+    printf ("Nhap ban kinh: ");
+    scanf ("%d",&ban_kinh);
+    dien_tich = pi * ban_kinh * ban_kinh;
+    printf ("Chu vi = %d\n", 2 * pi * ban_kinh);
+    printf ("Dien tich = %d\n", dien_tich);
+    return 0;
 }
