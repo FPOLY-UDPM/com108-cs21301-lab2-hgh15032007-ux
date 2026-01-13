@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Huỳnh Gia Hoàng]
+ * MSSV:      [PS48269]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
  // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH CỘNG / TRỪ 2 SỐ 
@@ -9,15 +9,18 @@
 // Output: Hiển thị ra màn hình tổng, hiệu 2 số 
 
 #include <stdio.h>
-
-int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
+int main () {
+    int x = 0, y = 0, tong, hieu;
+    printf ("Nhap x: ");
+    scanf ("%d",&x);
+    printf ("Nhap y: ");
+    scanf ("%d",&y);
+    tong = x + y;
+    hieu = x - y;
+    printf ("Tong = %d\n", tong);
+    printf ("Hieu = %d\n", hieu);
+    return 0;
 }
+
+
+
